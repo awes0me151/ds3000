@@ -1,0 +1,25 @@
+Model,Vectorizer,Set,Measurement,Score
+Multinomial Naive Bayes,Count,Training,Accuracy,0.9236
+Multinomial Naive Bayes,Count,Testing,Accuracy,0.8228
+Multinomial Naive Bayes,Tf-idf,Training,Accuracy,0.9465
+Multinomial Naive Bayes,Tf-idf,Testing,Accuracy,0.8202
+Logistic Regression,Count,Training,Accuracy,0.9735
+Logistic Regression,Count,Testing,Accuracy,0.8216
+Logistic Regression,Tf-idf,Training,Accuracy,0.9733
+Logistic Regression,Tf-idf,Testing,Accuracy,0.8275
+Random Forest Classifier,Count,Training,Accuracy,0.9954
+Random Forest Classifier,Count,Testing,Accuracy,0.8139
+Random Forest Classifier,Tf-idf,Training,Accuracy,0.9964
+Random Forest Classifier,Tf-idf,Testing,Accuracy,0.8094
+Multinomial Naive Bayes,Count,Training,F1 Score,0.9281
+Multinomial Naive Bayes,Count,Testing,F1 Score,0.8345
+Multinomial Naive Bayes,Tf-idf,Training,F1 Score,0.9505
+Multinomial Naive Bayes,Tf-idf,Testing,F1 Score,0.8409
+Logistic Regression,Count,Training,F1 Score,0.9754
+Logistic Regression,Count,Testing,F1 Score,0.8345
+Logistic Regression,Tf-idf,Training,F1 Score,0.9505
+Logistic Regression,Tf-idf,Testing,F1 Score,0.8409
+Random Forest Classifier,Count,Training,F1 Score,0.9957
+Random Forest Classifier,Count,Testing,F1 Score,0.8317
+Random Forest Classifier,Tf-idf,Training,F1 Score,0.9966
+Random Forest Classifier,Tf-idf,Testing,F1 Score,0.8272
