@@ -8,9 +8,9 @@ User ratings, for instance, on a 1 to 5 scale, can generally determine how good 
 
 Personally, I love reading video game reviews. Not only does it allow me to make an informed decision whether I should buy a game or not, I can also compare my experiences with others if I already have a certain game. My vocabulary and syntax may differ from another user, however we both attempt to express our ideas about the same video game. The fact that sentiment analysis can pick up these nuances and predict our feelings -whether they're the same or different- about a specific game is interesting to me. 
 
-### What's in this project?
+### What's in the Notebook?
 
-This project builds off the topics covered in my Foundations of Data Science class. Here are a list of things encapsulated in my project:
+This Jupyter Notebook builds off the topics covered in my Foundations of Data Science class. Here are a list of things encapsulated in my project:
 
 1. Data Wrangling
     * Merging DataFrames
@@ -32,7 +32,11 @@ This project builds off the topics covered in my Foundations of Data Science cla
     * Comparing performances
     * Next steps and possible improvements
 
-### Necessary libraries
+### What's in the Python File?
+
+This python file builds off the notebook by allowing the user to test out the model's performance for themselves. This file first builds the Logistic Regression model and fits it with the tf-idf vectorized data. Then, it prompts the user to continue, first asking for a review, and then asks whether this review was recommending of the game or not. Based off these inputs, the user is told whether the model guessed correctly or incorrectly, updating the accuracy accordingly.
+
+### Necessary libraries and files
 
 I would not be able to complete this project without the help of many necessary libraries. Here are some libraries you must install to run the notebook and python file for yourself.
 
@@ -40,5 +44,9 @@ I would not be able to complete this project without the help of many necessary 
 - [ ] sklearn
 - [ ] cleantext
 - [ ] plotly.express
+
+For the notebook, be sure to download the **game_reviews.csv, reviews.csv, and game_review_summary.csv** files. I obtained game_reviews.csv from kaggle, and reviews.csv was a file provided in my DS 3000 class. I created the game_review_summary.csv file in order to put together all of my findings. 
+
+I added code to my notebook to allow my data to be exported as a csv, which is the **review_data.csv** file. Either you could run this cell in the notebook yourself to get the file, or you could download it straight from this repository. This **review_data.csv** file is necessary in order to run the python file.
 
 [Link to first dataset](https://www.kaggle.com/piyushagni5/sentiment-analysis-for-steam-reviews?select=train.csv)
