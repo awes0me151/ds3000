@@ -37,7 +37,7 @@ def pred_sentiment(comment):
 #Allow user to test out the model by inputting their own "reviews"
 print("Welcome to my sentiment analysis predictor. If you have not checked out my notebook, feel free to do so!\n")
 print("The Jupyter Notebook explores various models and vectorizers to predict the sentiment of game reviews.\n")
-print("This python file allows you to input a \"review\" and using a fitted model, try to guess the sentiment of that review.\n")
+print("This python file allows you to input a \"review\" and using Logistic Regression and a Tf-idf vectorizer, tries to guess the sentiment of that review.\n")
 
 accuracy = 0
 correct = 0
