@@ -32,4 +32,13 @@ This project builds off the topics covered in my Foundations of Data Science cla
     * Comparing performances
     * Next steps and possible improvements
 
+### Necessary libraries
+
+I would not be able to complete this project without the help of many necessary libraries. Here are some libraries you must install to run the notebook and python file for yourself.
+
+- [ ] pandas
+- [ ] sklearn
+- [ ] cleantext
+- [ ] plotly.express
+
 [Link to first dataset](https://www.kaggle.com/piyushagni5/sentiment-analysis-for-steam-reviews?select=train.csv)
