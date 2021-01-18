@@ -36,6 +36,12 @@ This Jupyter Notebook builds off the topics covered in my Foundations of Data Sc
 
 This python file builds off the notebook by allowing the user to test out the model's performance for themselves. This file first builds the Logistic Regression model and fits it with the tf-idf vectorized data. Then, it prompts the user to continue, first asking for a review, and then asks whether this review was recommending of the game or not. Based off these inputs, the user is told whether the model guessed correctly or incorrectly, updating the accuracy accordingly.
 
+In order to run the python file, open up the command prompt and navigate to the directory where the .py file is stored. Then, enter 
+```bash
+py predictor.py
+```
+It will take a couple of seconds for the necessary code to run, then a prompt will appear for you.
+
 ### Necessary libraries and files
 
 I would not be able to complete this project without the help of many necessary libraries. Here are some libraries you must install to run the notebook and python file for yourself.
@@ -45,8 +51,20 @@ I would not be able to complete this project without the help of many necessary 
 - [ ] cleantext
 - [ ] plotly.express
 
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install these libraries.
+
+```bash
+pip install pandas
+pip install sklearn
+pip install cleantext
+pip install plotly_express==0.4.0
+```
+
 For the notebook, be sure to download the **game_reviews.csv, reviews.csv, and game_review_summary.csv** files. I obtained game_reviews.csv from kaggle, and reviews.csv was a file provided in my DS 3000 class. I created the game_review_summary.csv file in order to put together all of my findings. 
 
 I added code to my notebook to allow my data to be exported as a csv, which is the **review_data.csv** file. Either you could run this cell in the notebook yourself to get the file, or you could download it straight from this repository. This **review_data.csv** file is necessary in order to run the python file.
 
 [Link to first dataset](https://www.kaggle.com/piyushagni5/sentiment-analysis-for-steam-reviews?select=train.csv)
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
